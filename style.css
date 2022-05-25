@@ -31,8 +31,12 @@ main {
     }
 }
 
-h1 {
+main h1 {
     margin: 0;
+}
+
+main a {
+    color: hsl(300, 100%, 70%);
 }
 
 /* Font by drawperfect.com */
