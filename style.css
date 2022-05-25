@@ -13,6 +13,8 @@ body {
     font-size: 18px;
     height: 100vh;
     margin: 0;
+
+    background: linear-gradient(to top right, hsl(50, 100%, 70%), hsl(300, 100%, 70%));
 }
 
 main {
@@ -25,7 +27,7 @@ main {
 
 @media only screen and (min-width: 768px) {
     main {
-        margin: 0 10%;
+        margin: 0 15%;
     }
 }
 
