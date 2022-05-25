@@ -48,5 +48,5 @@ main a {
     src: local("FORCED SQUARE"),
         url("/fonts/FORCED SQUARE.woff2") format("woff2"),
         url("/fonts/FORCED SQUARE.woff") format("woff"),
-        url("/fonts/FORCED SQUARE.ttf") format("ttf");
+        url("/fonts/FORCED SQUARE.ttf") format("truetype");
 }
