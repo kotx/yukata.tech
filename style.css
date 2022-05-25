@@ -1,0 +1,46 @@
+body {
+    font-family:
+        "FORCED SQUARE",
+        "Consolas",
+        "Lucida Console",
+        "Monaco",
+        ui-monospace,
+        monospace,
+        "Apple Color Emoji",
+        "Segoe UI Emoji",
+        "Segoe UI Symbol",
+        "Noto Color Emoji";
+    font-size: 18px;
+    height: 100vh;
+    margin: 0;
+}
+
+main {
+    background-color: #000000;
+    box-sizing: border-box;
+    color: #ffffff;
+    height: 100%;
+    padding: 18px;
+}
+
+@media only screen and (min-width: 768px) {
+    main {
+        margin: 0 10%;
+    }
+}
+
+h1 {
+    margin: 0;
+}
+
+/* Font by drawperfect.com */
+@font-face {
+    font-display: swap;
+    font-family: "FORCED SQUARE";
+    font-style: normal;
+    font-weight: 500;
+    src: local("FORCED SQUARE"),
+        url("/fonts/FORCED SQUARE.woff2") format("woff2"),
+        url("/fonts/FORCED SQUARE.woff") format("woff"),
+        url("/fonts/FORCED SQUARE.ttf") format("ttf");
+}
