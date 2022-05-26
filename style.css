@@ -9,7 +9,7 @@ body {
         "Segoe UI Emoji",
         "Segoe UI Symbol",
         "Noto Color Emoji";
-    font-size: 18px;
+    font-size: 20px;
     margin: 0;
 
     background: linear-gradient(to top right, hsl(274, 85%, 43%), hsl(322, 100%, 50%));
@@ -64,7 +64,7 @@ main span {
     overflow: hidden;
 }
 
-@media only screen and (min-width: 384px) {
+@media only screen and (min-width: 512px) {
     address {
         position: absolute;
         top: 0;
