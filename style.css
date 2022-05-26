@@ -13,7 +13,7 @@ body {
     height: 100vh;
     margin: 0;
 
-    background: linear-gradient(to top right, hsl(50, 100%, 70%), hsl(300, 100%, 70%));
+    background: linear-gradient(to top right, hsl(274, 85%, 43%), hsl(322, 100%, 50%));
 }
 
 main {
@@ -22,6 +22,8 @@ main {
     color: #ffffff;
     height: 100%;
     padding: 18px;
+    position: relative;
+    overflow-wrap: break-word;
 }
 
 @media only screen and (min-width: 768px) {
@@ -30,12 +32,51 @@ main {
     }
 }
 
-main h1 {
+main a {
+    color: hsl(300, 100%, 70%);
+}
+
+main h1,
+main p {
     margin: 0;
 }
 
-main a {
-    color: hsl(300, 100%, 70%);
+main li {
+    margin: 4px;
+}
+
+main .kot {
+    display: inline-block;
+    color: white;
+    background: linear-gradient(to top right, hsl(274, 85%, 43%) 0 50%, hsl(322, 100%, 50%) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+main .extra {
+    color: hsl(0, 0%, 80%);
+    font-style: italic;
+}
+
+main span {
+    overflow: hidden;
+}
+
+@media only screen and (min-width: 384px) {
+    address {
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin: 18px;
+    }
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 18px;
 }
 
 /* Font by drawperfect.com */
