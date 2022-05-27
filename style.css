@@ -47,7 +47,7 @@ main li {
 }
 
 main .kot {
-    display: inline-block;
+    display: inline;
     color: white;
     background: linear-gradient(to top right, hsl(274, 85%, 43%) 0 50%, hsl(322, 100%, 50%) 100%);
     background-clip: text;
