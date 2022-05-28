@@ -12,10 +12,16 @@ body {
     font-size: 20px;
     margin: 0;
 
-    background: linear-gradient(to top right, hsl(274, 85%, 43%), hsl(322, 100%, 50%));
     background-color: black;
-    background-repeat: no-repeat;
 }
+
+@media only screen and (min-width: 768px) {
+    body {
+        background: linear-gradient(to top right, hsl(274, 85%, 43%), hsl(322, 100%, 50%));
+        background-repeat: no-repeat;
+    }
+}
+
 
 main {
     background-color: #000000;
