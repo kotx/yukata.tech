@@ -74,14 +74,14 @@ main address {
 }
 
 @media only screen and (min-width: 512px) {
-    address {
+    main address {
         position: absolute;
         top: 0;
         right: 0;
         margin: 18px;
     }
 
-    footer {
+    main footer {
         position: absolute;
         bottom: 0;
         right: 0;
