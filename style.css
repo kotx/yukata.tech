@@ -66,8 +66,8 @@ main .extra {
     font-style: italic;
 }
 
-main span {
-    overflow: hidden;
+main address {
+    font-style: unset;
 }
 
 @media only screen and (min-width: 512px) {
