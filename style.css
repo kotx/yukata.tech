@@ -43,13 +43,12 @@ main a {
     color: hsl(300, 100%, 70%);
 }
 
-main h1,
-main p {
+main ul {
     margin: 0;
 }
 
 main li {
-    margin: 4px;
+    margin: 4px 0;
 }
 
 main .kot {
