@@ -51,6 +51,10 @@ main li {
     margin: 4px 0;
 }
 
+main p {
+    margin: 18px 0;
+}
+
 main .kot {
     display: inline;
     color: white;
