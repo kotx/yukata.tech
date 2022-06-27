@@ -9,7 +9,7 @@ body {
         "Segoe UI Emoji",
         "Segoe UI Symbol",
         "Noto Color Emoji";
-    font-size: 20px;
+    font-size: 25px;
     margin: 0;
 
     background-color: black;
@@ -28,7 +28,7 @@ main {
     box-sizing: border-box;
     color: #ffffff;
     min-height: 100vh;
-    padding: 18px;
+    padding: 2%;
     position: relative;
     overflow-wrap: break-word;
 }
@@ -58,7 +58,7 @@ main p {
 main .kot {
     display: inline;
     color: white;
-    background: linear-gradient(to top right, hsl(274, 85%, 43%) 0 50%, hsl(322, 100%, 50%) 100%);
+    background: linear-gradient(to top right, hsl(274, 92%, 62%) 0 50%, hsl(322, 100%, 50%) 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -73,20 +73,13 @@ main address {
     font-style: unset;
 }
 
-@media only screen and (min-width: 512px) {
-    main address {
-        position: absolute;
-        top: 0;
-        right: 0;
-        margin: 18px;
-    }
+main footer {
+    margin: 20px 18px;
+    text-align: center;
+}
 
-    main footer {
-        position: absolute;
-        bottom: 0;
-        right: 0;
-        margin: 18px;
-    }
+main footer address {
+    margin: 15px;
 }
 
 /* Font by drawperfect.com */
