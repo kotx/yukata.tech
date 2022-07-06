@@ -24,9 +24,9 @@ body {
 
 
 main {
-    background-color: #000000;
+    background-color: black;
     box-sizing: border-box;
-    color: #ffffff;
+    color: white;
     min-height: 100vh;
     padding: 2%;
     position: relative;
