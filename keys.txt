@@ -2,12 +2,11 @@
 ## Accessible at https://kot.cat/keys
 ## You could also look at https://github.com/kotx.keys
 
-## This is my primary desktop key.
+## This is my primary desktop key. It has no password, so don't trust it if you're a security geek.
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJkEiZX277T928lNhjK22zqhktPp3JowK3JG2H3d3VvG nousagi
 
-## Thinkpad. Probably secure!
+## Laptop. Password-protected.
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIHE5GZ7HdjH5hzrxurLAB0psBQLF6MNN198s10Y13pU3 crown
 
-## Decommissioned, but nobody could ever have access to the private key anyway.
-# Secured by Secretive! https://github.com/maxgoedjen/secretive. Basically it stores SSH keys in Secure Enclave. Pretty neat!
-# ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBHMyHK+ibgBcHzDKtXyOTDDkSKykfuec6ytw3eUsA8RNxIN9KGrdCwUpAjRqOS+8dUeR4hO3AwxToK+orq0nrbU= ayaka
+## My Coder user on a custom instance. See https://coder.com. Only used for pushing to Git repositories.
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJpabCcT7zNwoaSswSG0Kwisgbg3jHVrH4ZLy5YOnlZv coder
