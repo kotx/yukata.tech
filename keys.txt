@@ -1,12 +1,12 @@
 ## A machine (and human!) readable list of SSH keys I use.
-## Accessible at https://kot.cat/keys
+## Accessible at https://kot.cat/keys.txt
 ## You could also look at https://github.com/kotx.keys
 
-## This is my primary desktop key. It has no password, so don't trust it if you're a security geek.
+## Primary desktop key. It has no password, so don't trust it if you're a security geek.
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJkEiZX277T928lNhjK22zqhktPp3JowK3JG2H3d3VvG nousagi
 
 ## Laptop. Password-protected.
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIHE5GZ7HdjH5hzrxurLAB0psBQLF6MNN198s10Y13pU3 crown
 
 ## My Coder user on a custom instance. See https://coder.com. Only used for pushing to Git repositories.
-ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJpabCcT7zNwoaSswSG0Kwisgbg3jHVrH4ZLy5YOnlZv coder
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFHJDPk4X2FDVdrsbBnqp6sgcAwPAZFfcqxxPxzAMKf5 coder
