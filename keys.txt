@@ -10,3 +10,6 @@ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIHE5GZ7HdjH5hzrxurLAB0psBQLF6MNN198s10Y13pU3
 
 ## My Coder user on a custom instance. See https://coder.com. Only used for pushing to Git repositories.
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFHJDPk4X2FDVdrsbBnqp6sgcAwPAZFfcqxxPxzAMKf5 coder
+
+# Pixel 6a. Biometric, used for SSH with Termius.
+ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBE/AZmxMN8rnJ/o09HITgQ/eDNM1/j1fV/AIuCShvTPZb1vrk1Reiq04Xvnu0RJRLH1RzGypvxGdkzG886hs97I= ericoil
