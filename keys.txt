@@ -2,14 +2,11 @@
 ## Accessible at https://kot.cat/keys.txt
 ## You could also look at https://github.com/kotx.keys
 
-## Titan Security Key A. Secure.
+## Titan Security Key A
 sk-ecdsa-sha2-nistp256@openssh.com AAAAInNrLWVjZHNhLXNoYTItbmlzdHAyNTZAb3BlbnNzaC5jb20AAAAIbmlzdHAyNTYAAABBBFTin40i5oGlyQ2IonCS83o6HQPeYbxyVSBCxc72CoYjn21Z0y0jT73wP6kqKG0Nm9pPR4EF9+7xrET9dC58X9MAAAAEc3NoOg== titan-a
 
-## Titan Security Key C. Secure.
+## Titan Security Key C
 sk-ecdsa-sha2-nistp256@openssh.com AAAAInNrLWVjZHNhLXNoYTItbmlzdHAyNTZAb3BlbnNzaC5jb20AAAAIbmlzdHAyNTYAAABBBLhc4H7xcec0tNRLEFxx7NfLm14Nxoj45rCJYINPSDRJLyK03JYumMDDzIpxYslm1UEbHUvN9lZ+y3nGufm0SP4AAAAEc3NoOg== titan-c
-
-# Pixel 6a
-ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBE/AZmxMN8rnJ/o09HITgQ/eDNM1/j1fV/AIuCShvTPZb1vrk1Reiq04Xvnu0RJRLH1RzGypvxGdkzG886hs97I= ericoil
 
 ## My Coder user on a custom instance. See https://coder.com. Only used for pushing to Git repositories.
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFHJDPk4X2FDVdrsbBnqp6sgcAwPAZFfcqxxPxzAMKf5 coder
