@@ -7,6 +7,8 @@ sk-ecdsa-sha2-nistp256@openssh.com AAAAInNrLWVjZHNhLXNoYTItbmlzdHAyNTZAb3BlbnNza
 
 ## Titan Security Key C
 sk-ecdsa-sha2-nistp256@openssh.com AAAAInNrLWVjZHNhLXNoYTItbmlzdHAyNTZAb3BlbnNzaC5jb20AAAAIbmlzdHAyNTYAAABBBLhc4H7xcec0tNRLEFxx7NfLm14Nxoj45rCJYINPSDRJLyK03JYumMDDzIpxYslm1UEbHUvN9lZ+y3nGufm0SP4AAAAEc3NoOg== titan-c
+### Same, on laptop
+sk-ecdsa-sha2-nistp256@openssh.com AAAAInNrLWVjZHNhLXNoYTItbmlzdHAyNTZAb3BlbnNzaC5jb20AAAAIbmlzdHAyNTYAAABBBF6Mk+XkNzBgM7Eb8AyTPn26hMDISlnCdFMvVXWmpkEoewnrqU9kJq8iYyCASc4ROnVCbpVW1t2VM9za/K8Nd2sAAAAEc3NoOg== kot@rosa
 
 ## My Coder user on a custom instance. See https://coder.com. Only used for pushing to Git repositories.
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFHJDPk4X2FDVdrsbBnqp6sgcAwPAZFfcqxxPxzAMKf5 coder
