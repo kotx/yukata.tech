@@ -19,7 +19,7 @@
 			content="https://kot.pages.dev/images/avatar.webp"
 		/>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="me" href="https://uwu.social/@kot">
+		<link rel="me" href="https://uwu.social/@kot" />
 	</head>
 
 	<body>
@@ -49,14 +49,14 @@
 
 		/* Font by drawperfect.com */
 		@font-face {
-			font-display: swap;
 			font-family: "FORCED SQUARE";
+			src: local("FORCED SQUARE"),
+				url("/fonts/FORCED_SQUARE.woff2") format("woff2"),
+				url("/fonts/FORCED_SQUARE.woff") format("woff"),
+				url("/fonts/FORCED_SQUARE.ttf") format("truetype");
 			font-style: normal;
 			font-weight: 500;
-			src: local("FORCED SQUARE"),
-				url("/fonts/FORCED SQUARE.woff2") format("woff2"),
-				url("/fonts/FORCED SQUARE.woff") format("woff"),
-				url("/fonts/FORCED SQUARE.ttf") format("truetype");
+			font-display: swap;
 		}
 
 		body {
