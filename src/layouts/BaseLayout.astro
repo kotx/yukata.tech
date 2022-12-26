@@ -26,100 +26,107 @@
 		<main>
 			<slot />
 		</main>
-	</body>
+		<style is:global lang="scss">
+			$kot-gradient: linear-gradient(
+				to top right,
+				hsl(274, 92%, 62%) 0 50%,
+				hsl(322, 100%, 50%) 100%
+			);
 
-	<style is:global lang="scss">
-		$kot-gradient: linear-gradient(
-			to top right,
-			hsl(274, 92%, 62%) 0 50%,
-			hsl(322, 100%, 50%) 100%
-		);
+			$bg-gradient: linear-gradient(
+				to top right,
+				hsl(274, 85%, 43%),
+				hsl(322, 100%, 50%)
+			);
 
-		$bg-gradient: linear-gradient(
-			to top right,
-			hsl(274, 85%, 43%),
-			hsl(322, 100%, 50%)
-		);
-
-		@mixin for-wide-only {
-			@media only screen and (min-width: 768px) {
-				@content;
-			}
-		}
-
-		/* Font by drawperfect.com */
-		@font-face {
-			font-family: "FORCED SQUARE";
-			src: local("FORCED SQUARE"),
-				url("/fonts/FORCED_SQUARE.woff2") format("woff2"),
-				url("/fonts/FORCED_SQUARE.woff") format("woff"),
-				url("/fonts/FORCED_SQUARE.ttf") format("truetype");
-			font-style: normal;
-			font-weight: 500;
-			font-display: swap;
-		}
-
-		body {
-			font-family: "FORCED SQUARE", "Consolas", "Lucida Console", "Monaco",
-				ui-monospace, monospace, "Apple Color Emoji", "Segoe UI Emoji",
-				"Segoe UI Symbol", "Noto Color Emoji";
-			font-size: 20px;
-
-			margin: 0.75rem;
-			padding: 0;
-
-			height: 100vh;
-
-			background-color: black;
-
-			@include for-wide-only {
-				background: $bg-gradient;
-				background-repeat: no-repeat;
-			}
-		}
-
-		main {
-			background-color: black;
-			box-sizing: border-box;
-			color: white;
-			// min-height: 100%;
-			padding: 2%;
-			position: relative;
-			overflow-wrap: break-word;
-
-			@include for-wide-only {
-				margin: 0 15%;
+			@mixin for-wide-only {
+				@media only screen and (min-width: 768px) {
+					@content;
+				}
 			}
 
-			a {
-				color: #ff66ff;
+			/* Font by drawperfect.com */
+			@font-face {
+				font-family: "FORCED SQUARE";
+				src: local("FORCED SQUARE"),
+					url("/fonts/FORCED_SQUARE.woff2") format("woff2"),
+					url("/fonts/FORCED_SQUARE.woff") format("woff"),
+					url("/fonts/FORCED_SQUARE.ttf") format("truetype");
+				font-style: normal;
+				font-weight: 500;
+				font-display: swap;
 			}
 
-			ul {
+			body {
+				font-family: "FORCED SQUARE", "Consolas", "Lucida Console",
+					"Monaco", ui-monospace, monospace, "Apple Color Emoji",
+					"Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+				font-size: 20px;
+
+				box-sizing: border-box;
+				height: 100vh;
+
+				padding: 0.75rem;
 				margin: 0;
+
+				background-color: black;
+
+				@include for-wide-only {
+					background: $bg-gradient;
+					background-repeat: no-repeat;
+				}
 			}
 
-			li {
-				margin: 4px 0;
-			}
+			main {
+				background-color: black;
 
-			p {
-				margin: 18px 0;
-			}
+				box-sizing: border-box;
+				& * {
+					box-sizing: border-box;
+				}
 
-			.kot {
-				display: inline;
-				color: #ffffff;
-				background: $kot-gradient;
-				background-clip: text;
-				-webkit-background-clip: text;
-				-webkit-text-fill-color: transparent;
-			}
+				color: white;
+				min-height: 100%;
 
-			.extra {
-				color: #cccccc;
-				font-style: italic;
+				padding: 2%;
+
+				position: relative;
+				overflow-wrap: break-word;
+
+				@include for-wide-only {
+					margin: 0 15%;
+				}
+
+				a {
+					color: #ff66ff;
+				}
+
+				ul {
+					margin: 0;
+				}
+
+				li {
+					margin: 4px 0;
+				}
+
+				p {
+					margin: 18px 0;
+				}
+
+				.kot {
+					display: inline;
+					color: #ffffff;
+					background: $kot-gradient;
+					background-clip: text;
+					-webkit-background-clip: text;
+					-webkit-text-fill-color: transparent;
+				}
+
+				.extra {
+					color: #cccccc;
+					font-style: italic;
+				}
 			}
-		}
-	</style>
+		</style>
+	</body>
 </html>
