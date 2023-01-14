@@ -9,7 +9,10 @@ Hello, I'm Kot! I write software.
 Here's a few things I've made:
 
 - [render](https://github.com/kotx/render), a Cloudflare Worker that serves objects from a Cloudflare R2 bucket.
-- [this website](https://github.com/kotx/kot.cat)!
+- [shovel](https://github.com/kotx/shovel), a client for placing a lot of pixels on [https://v6.sys42.net/](Place IPv6)
+- [recorder](https://github.com/kotx/recorder), a Rust crate to simplify data struct creation.
+- [risu](https://github.com/kotx/risu), a Discord bot for a Safebooru image tag-guessing game.
+- [this website](https://github.com/kotx/yukata.tech)!
 
 Some miscellaneous details:
 
