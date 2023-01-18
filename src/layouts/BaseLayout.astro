@@ -1,18 +1,27 @@
 ---
+interface Props {
+	title: string
+	metaTitle?: string
+	metaDescription?: string
+}
+
+const {
+	title = "Kot!!",
+	metaTitle = "Kot",
+	metaDescription = "Heyo, I'm Kot! Nice to meet you.",
+} = Astro.props
 ---
 
 <!DOCTYPE html>
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
-		<title>kot</title>
-		<meta property="og:title" content="kot" />
+		<title>{title}</title>
+		<meta property="og:title" content={metaTitle || title} />
 		<meta property="og:type" content="website" />
-		<meta name="description" content="Hey, I'm Kot! Nice to meet you." />
-		<meta
-			property="og:description"
-			content="Hey, I'm kot! Nice to meet you."
-		/>
+		<meta property="og:site_name" content="Kot's Website" />
+		<meta name="description" content={metaDescription} />
+		<meta property="og:description" content={metaDescription} />
 		<meta name="theme-color" content="#ff00a2" />
 		<meta
 			property="og:image"
@@ -26,13 +35,7 @@
 		<main>
 			<slot />
 		</main>
-		<style is:global lang="scss">
-			$kot-gradient: linear-gradient(
-				to top right,
-				hsl(274, 92%, 62%) 0 50%,
-				hsl(322, 100%, 50%) 100%
-			);
-
+		<style lang="scss" is:global>
 			$bg-gradient: linear-gradient(
 				to top right,
 				hsl(274, 85%, 43%),
@@ -110,24 +113,6 @@
 
 				p {
 					margin: 18px 0;
-				}
-
-				.kot {
-					font-family: "FORCED SQUARE", "Consolas", "Lucida Console",
-						"Monaco", ui-monospace, monospace, "Apple Color Emoji",
-						"Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-
-					display: inline;
-					color: #ffffff;
-					background: $kot-gradient;
-					background-clip: text;
-					-webkit-background-clip: text;
-					-webkit-text-fill-color: transparent;
-				}
-
-				.extra {
-					color: #cccccc;
-					font-style: italic;
 				}
 			}
 		</style>
